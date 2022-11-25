@@ -45,7 +45,7 @@ Plot the performance plot
 Evaluate the model with the testing data.
 
 ## PROGRAM
-
+```sh
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
@@ -75,7 +75,7 @@ tf.round(model.predict([[20]]))
 pd.DataFrame(history.history).plot()
 r=tf.keras.metrics.RootMeanSquaredError()
 r(Y_test,preds)
-
+```
 
 ## Dataset Information
 ![image](https://user-images.githubusercontent.com/114344373/192256700-ee189e60-3ceb-4b4e-9938-6653e8698a30.png)
